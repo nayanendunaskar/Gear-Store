@@ -60,7 +60,7 @@ export const Navbar = () => {
             }}
           >
             <i className="fas fa-magnifying-glass"></i>
-            <span className="link-text">Search</span>
+
           </li>
         )}
 
@@ -74,7 +74,6 @@ export const Navbar = () => {
             }
           >
             <i className="fas fa-heart"></i>
-            <span className="link-text">Wishlist</span>
             <span className="wishlist-count">
               <span style={{ position: "relative", bottom: "6px" }}>
                 {dataState?.wishlist?.length}
@@ -90,7 +89,6 @@ export const Navbar = () => {
             }
           >
             <i className="fas fa-shopping-cart"></i>
-            <span className="link-text">Cart</span>
             <span className="cart-count">
               <span style={{ position: "relative", bottom: "6px" }}>
                 {dataState?.cart?.length}
@@ -108,25 +106,7 @@ export const Navbar = () => {
             }
           >
             {!authState?.isLoggedin && <i className="fas fa-user"></i>}
-            <span className="link-text">
-              {authState?.isLoggedin ? (
-                <span
-                  style={{
-                    backgroundColor: "black",
-                    color: "white",
-                    padding: "4px 6px",
-                    borderRadius: "3px",
-                    fontWeight: "600",
-                    textTransform: "uppercase",
-                    letterSpacing: "1.5px",
-                  }}
-                >
-                  {authState?.userDetails?.firstName}
-                </span>
-              ) : (
-                "Account"
-              )}
-            </span>
+            
           </NavLink>
         </li>
       </ul>
