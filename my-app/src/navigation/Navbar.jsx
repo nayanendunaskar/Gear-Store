@@ -56,7 +56,7 @@ export const Navbar = () => {
                 type: "SET_SHOWSEARCH_TRUE",
                 payload: true,
               });
-              navigate("/products");
+  
             }}
           >
             <i className="fas fa-magnifying-glass"></i>
@@ -64,17 +64,8 @@ export const Navbar = () => {
           </li>
         )}
 
-        <li className="nav-item">
-          <NavLink
-            to="/products"
-            className={({ isActive }) =>
-              isActive ? "nav-link navlink-active" : "nav-link"
-            }
-          >
-            <i className="fas fa-shopping-bag"></i>
-            <span className="link-text">Products</span>
-          </NavLink>
-        </li>
+        
+
         <li className="nav-item">
           <NavLink
             to="/wishlist"
