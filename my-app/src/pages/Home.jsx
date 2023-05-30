@@ -1,11 +1,9 @@
 import { useContext, useEffect } from "react";
-import { BestSellerSection } from "../components/BestSellerSection";
 import { GenderSection } from "../components/GenderSection";
-import { ImageSlider } from "../components/ImageSlider";
-import { NewArrivalSection } from "../components/NewArrivalSection";
+import { Header } from "../components/Header";
 import { DataContext } from "../context/DataContext";
 import { FilterContext } from "../context/FilterContext";
-import { TopBrands } from "../components/TopBrands";
+import { FeatureProducts } from "../components/FeatureProducts";
 
 export const Home = () => {
   const { dispatchData } = useContext(DataContext);
@@ -22,11 +20,9 @@ export const Home = () => {
   }, []);
   return (
     <>
-      <ImageSlider />
+      <Header />
       <GenderSection />
-      <TopBrands />
-      <NewArrivalSection />
-      <BestSellerSection />
+      <FeatureProducts />
     </>
   );
 };
