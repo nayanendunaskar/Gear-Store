@@ -39,11 +39,6 @@ export const Signup = () => {
     <>
       <div className="signup-container-layout">
         <div className="signup-image-layout">
-          <img
-            src="https://images.unsplash.com/photo-1495121605193-b116b5b9c5fe?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1888&q=80"
-            width="100%"
-            height="100%"
-          />
         </div>
         <main className="signup-content-layout">
           <h1 className="signup-content-header">Sign Up</h1>

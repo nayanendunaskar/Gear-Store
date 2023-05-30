@@ -57,9 +57,7 @@ export const Login = () => {
       <div className="login-container-layout">
         <div className="login-container-image">
           <img
-            src="https://hips.hearstapps.com/hmg-prod/images/business-opening-with-open-sign-royalty-free-image-1573142427.jpg"
-            width="100%"
-            height="100%"
+            src=""
           />
         </div>
         <div className="login-container-form">
