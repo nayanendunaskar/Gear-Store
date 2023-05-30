@@ -1,13 +1,10 @@
 .signup-container-layout {
     display: flex;
     flex-wrap: wrap;
-  }
-  .signup-image-layout {
-    width: 55%;
+    margin-left: 35%;
   }
   .signup-content-layout {
     width: 44%;
-    border-left: 3px solid;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -17,14 +14,14 @@
   .signup-content-header {
     text-transform: uppercase;
     letter-spacing: 2.5px;
-    font-size: 3rem;
+    font-size: 1.9rem;
     margin: 20px 0px 4px 0px;
-    text-shadow: 1px 1px 1px #000;
+    text-shadow: 1px 1px 1px #c3b6b6;
   }
   
   .signup-content {
     text-align: left;
-    height: 88%;
+    height: auto;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -40,9 +37,9 @@
   }
   .signup-content-input {
     padding: 10px 20px;
-    border-radius: 5px;
+    border-radius: 4px;
     margin-top: 8px;
-    font-size: 1.2rem;
+    font-size: 0.9rem;
     display: flex;
     flex-wrap: wrap;
   }

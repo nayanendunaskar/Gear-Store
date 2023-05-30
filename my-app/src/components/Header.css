@@ -1,0 +1,77 @@
+.header-container{
+  display: flex;
+  width: 80%; 
+  margin: auto;
+  margin-top: 7rem;
+  gap: 2rem;
+  padding: 2rem;
+  font-size: 1rem; 
+}
+
+.header-content{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 70%;
+  gap: 20px;
+}
+
+.intro-data {
+  text-align: center;
+  margin-bottom: 0;
+  color: #fdc610;
+}
+
+.header-description{
+  width: 100%;
+  text-align: center;
+}
+
+.shop-now-btn{
+  width: 25%;
+  padding: 10px 20px;
+  background-color: #e0c70b;
+  color: whitesmoke;
+  border: 2px solid black;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: all 0.2s ease-in;
+  font-size: 0.9rem;
+  font-weight: bold;
+  margin: 0 auto;
+  display: block;
+  text-decoration:underline;
+  text-decoration-color: #e0c358;
+}
+
+.shop-now-btn:hover{
+  background-color: #e0c70b;
+  
+}
+
+.hero-header-img {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+figure {
+  position: relative;
+
+  &::after {
+    content: "";
+    width: 60%;
+    height: 80%;
+    background-color: #e0c358;
+    position: absolute;
+    left: 50%;
+    top: -5rem;
+    z-index: -1;
+  }
+}
+
+.img-style {
+  width: 100%;
+  height: auto;
+}
