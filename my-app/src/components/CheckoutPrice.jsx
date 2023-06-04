@@ -43,7 +43,7 @@ export const CheckoutPrice = ({ selectedAdd }) => {
       key: "rzp_test_inOiRZzQS21nfX",
       amount: Number(totalCartPrice(dataState)) * 100,
       currency: "INR",
-      name: "LUXURIA",
+      name: "GEARSTORE",
       description: "Thank you for shopping with us",
       handler: function (response) {
         const orderHistoryObj = {

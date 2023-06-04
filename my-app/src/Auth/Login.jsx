@@ -29,8 +29,8 @@ export const Login = () => {
         err: "",
       }));
       loginUser({
-        email: "rohanrathod@gmail.com",
-        password: "kumalakum123",
+        email: "adarshbalika@gmail.com",
+        password: "adarshbalika",
       });
     } else {
       if (login?.email?.length > 0 && login?.password?.length > 0) {

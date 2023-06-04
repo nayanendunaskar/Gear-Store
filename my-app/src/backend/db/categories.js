@@ -8,23 +8,23 @@ import { v4 as uuid } from "uuid";
 export const categories = [
   {
     _id: 1,
-    categoryName: "Men",
+    categoryName: "Mobiles",
     description: "",
     thumbnail:
-      "https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/if_w_gt_800,w_800/enIN/Images/Visual_nav_tiles_March_2023_Mobile_800x900px_1-MENS_DUAL_tcm209-1008384.jpg",
+      "https://thumbor.forbes.com/thumbor/fit-in/900x510/https://www.forbes.com/uk/advisor/wp-content/uploads/2020/11/phones-switch-apps.jpg",
   },
   {
     _id: 2,
-    categoryName: "Women",
+    categoryName: "Laptops",
     description: "",
     thumbnail:
-      "https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/if_w_gt_800,w_800/enIN/Images/Visual_nav_tiles_March_2023_Mobile_800x900px_2-WOMENS_DUAL_tcm209-1008385.jpg",
+      "https://i.rtings.com/assets/pages/6S2WXjTl/best-laptop-medium.jpg",
   },
   {
     _id: 3,
-    categoryName: "Kids",
+    categoryName: "Tablets",
     description: "",
     thumbnail:
-      "https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/if_w_gt_800,w_800/enIN/Images/Visual_nav_tiles_March_2023_Mobile_800x900px_3-KIDS_DUAL_tcm209-1008383.jpg",
+      "https://www.techadvisor.com/wp-content/uploads/2022/06/samsung-galaxy-tab-a8-review.jpeg?resize=1536%2C865&quality=50&strip=all",
   },
 ];

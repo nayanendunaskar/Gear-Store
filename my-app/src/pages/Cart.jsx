@@ -42,11 +42,11 @@ export const Cart = () => {
           <b>
             Cart is Empty{" "}
             <span role="img" aria-label="annoyed">
-              😐
+              
             </span>{" "}
-            why don't you add some item{" "}
+            {" "}
             <span role="img" aria-label="annoyed-face">
-              🙄
+              
             </span>
           </b>
         </h3>

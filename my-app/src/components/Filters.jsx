@@ -4,8 +4,6 @@ import { CategoryFilters } from "./CategoryFilters";
 import "./Filters.css";
 import { PriceFilters } from "./PriceFilters";
 import { RatingFilters } from "./RatingFilters";
-import { SizeFilters } from "./SizeFilters";
-import { TypeFilters } from "./TypeFilters";
 import { FilterContext } from "../context/FilterContext";
 import { DataContext } from "../context/DataContext";
 
@@ -63,10 +61,6 @@ export const Filters = () => {
 
         <p className="price-slider-header">Categories</p>
         <CategoryFilters />
-        <p className="price-slider-header">Types</p>
-        <TypeFilters />
-        <p className="price-slider-header">Sizes</p>
-        <SizeFilters />
         <p className="price-slider-header">Brands</p>
         <BrandFilters />
         <p className="price-slider-header">Rating</p>

@@ -106,6 +106,25 @@ export const Navbar = () => {
             }
           >
             {!authState?.isLoggedin && <i className="fas fa-user"></i>}
+            <span className="link-text">
+              {authState?.isLoggedin ? (
+                <span
+                  style={{
+                    backgroundColor: "#d8a90c",
+                    color: "white",
+                    padding: "4px 6px",
+                    borderRadius: "3px",
+                    fontWeight: "600",
+                    textTransform: "uppercase",
+                    letterSpacing: "1.5px",
+                  }}
+                >
+                  {authState?.userDetails?.firstName}
+                </span>
+              ) : (
+                ""
+              )}
+            </span>
             
           </NavLink>
         </li>
