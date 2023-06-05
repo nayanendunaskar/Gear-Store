@@ -40,7 +40,7 @@ export const filterReducer = (filterState, { type, payload }) => {
         return { ...filterState, searchFilter: payload };
       case "CLEAR_ALL_FILTERS":
         return {
-          priceRange: 10000,
+          priceRange: 500000,
           categoryFilter: [],
           typeFilter: [],
           sizeFilter: [],
