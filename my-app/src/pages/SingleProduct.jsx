@@ -1,4 +1,4 @@
-import { useParams } from "react-router";
+import { useParams } from "react-router-dom";
 import { getSingleProduct } from "../utils/getSingleProduct";
 import { useContext, useEffect, useState } from "react";
 import "./SingleProduct.css";
@@ -29,7 +29,10 @@ export const SingleProduct = () => {
 
   const getAProduct = async () => {
     try {
+      console.log(productId)
       const product = await getSingleProduct(productId);
+      console.log(product)
+      
       setSingleProduct(product?.product);
     } catch (error) {
       console.error(error);

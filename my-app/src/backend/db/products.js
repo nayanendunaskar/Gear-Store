@@ -7,7 +7,7 @@ import { v4 as uuid } from "uuid";
 
 export const products = [
   {
-    id: 1,
+    _id: 1,
     title: "iPhone 14 Pro",
     description: "Apple iPhone 14 Pro (128 GB) - Space Black",
     price: 129000,
@@ -27,7 +27,7 @@ export const products = [
     ],
   },
   {
-    id: 2,
+    _id: 2,
     title: "iPhone 14 Pro",
     description: "Apple iPhone 14 Pro (128 GB) - Space Black",
     price: 129000,
@@ -47,7 +47,7 @@ export const products = [
     ],
   },
   {
-    id: 3,
+    _id: 3,
     title: "iPhone 14 Pro",
     description: "Apple iPhone 14 Pro (128 GB) - Space Black",
     price: 129000,
@@ -67,7 +67,7 @@ export const products = [
     ],
   },
   {
-    id: 4,
+    _id: 4,
     title: "iPhone 14 Pro",
     description: "Apple iPhone 14 Pro (128 GB) - Space Black",
     price: 129000,
@@ -87,7 +87,7 @@ export const products = [
     ],
   },
   {
-    id: 5,
+    _id: 5,
     title: "iPhone 14 Pro",
     description: "Apple iPhone 14 Pro (128 GB) - Space Black",
     price: 129000,
@@ -107,7 +107,7 @@ export const products = [
     ],
   },
   {
-    id: 6,
+    _id: 6,
     title: "iPhone 14 Pro",
     description: "Apple iPhone 14 Pro (128 GB) - Space Black",
     price: 129000,
@@ -127,7 +127,7 @@ export const products = [
     ],
   },
   {
-    id: 7,
+    _id: 7,
     title: "iPhone 14 Pro",
     description: "Apple iPhone 14 Pro (128 GB) - Space Black",
     price: 129000,
@@ -147,7 +147,7 @@ export const products = [
     ],
   },
   {
-    id: 8,
+    _id: 8,
     title: "iPhone 14 Pro",
     description: "Apple iPhone 14 Pro (128 GB) - Space Black",
     price: 129000,
@@ -167,7 +167,7 @@ export const products = [
     ],
   },
   {
-    id: 9,
+    _id: 9,
     title: "iPhone 14 Pro",
     description: "Apple iPhone 14 Pro (128 GB) - Space Black",
     price: 129000,
@@ -187,7 +187,7 @@ export const products = [
     ],
   },
   {
-    id: 10,
+    _id: 10,
     title: "iPhone 14 Pro",
     description: "Apple iPhone 14 Pro (128 GB) - Space Black",
     price: 129000,
@@ -207,7 +207,7 @@ export const products = [
     ],
   },
   {
-    id: 11,
+    _id: 11,
     title: "Samsung Galaxy Fold",
     description: "Samsung Galaxy Z Fold4 5G (Beige, 12GB RAM, 512GB Storage)",
     price: 187999,
@@ -227,7 +227,7 @@ export const products = [
     ],
   },
   {
-    id: 12,
+    _id: 12,
     title: "Samsung Galaxy Fold",
     description: "Samsung Galaxy Z Fold4 5G (Beige, 12GB RAM, 512GB Storage)",
     price: 187999,
@@ -247,7 +247,7 @@ export const products = [
     ],
   },
   {
-    id: 13,
+    _id: 13,
     title: "Samsung Galaxy Fold",
     description: "Samsung Galaxy Z Fold4 5G (Beige, 12GB RAM, 512GB Storage)",
     price: 187999,
@@ -267,7 +267,7 @@ export const products = [
     ],
   },
   {
-    id: 14,
+    _id: 14,
     title: "Samsung Galaxy Fold",
     description: "Samsung Galaxy Z Fold4 5G (Beige, 12GB RAM, 512GB Storage)",
     price: 187999,
@@ -287,7 +287,7 @@ export const products = [
     ],
   },
   {
-    id: 15,
+    _id: 15,
     title: "Samsung Galaxy Fold",
     description: "Samsung Galaxy Z Fold4 5G (Beige, 12GB RAM, 512GB Storage)",
     price: 187999,
@@ -307,7 +307,7 @@ export const products = [
     ],
   },
   {
-    id: 16,
+    _id: 16,
     title: "Samsung Galaxy Fold",
     description: "Samsung Galaxy Z Fold4 5G (Beige, 12GB RAM, 512GB Storage)",
     price: 187999,
@@ -327,7 +327,7 @@ export const products = [
     ],
   },
   {
-    id: 17,
+    _id: 17,
     title: "Samsung Galaxy Fold",
     description: "Samsung Galaxy Z Fold4 5G (Beige, 12GB RAM, 512GB Storage)",
     price: 187999,
@@ -347,7 +347,7 @@ export const products = [
     ],
   },
   {
-    id: 18,
+    _id: 18,
     title: "Samsung Galaxy Fold",
     description: "Samsung Galaxy Z Fold4 5G (Beige, 12GB RAM, 512GB Storage)",
     price: 187999,
@@ -367,7 +367,7 @@ export const products = [
     ],
   },
   {
-    id: 19,
+    _id: 19,
     title: "Samsung Galaxy Fold",
     description: "Samsung Galaxy Z Fold4 5G (Beige, 12GB RAM, 512GB Storage)",
     price: 187999,
@@ -387,7 +387,7 @@ export const products = [
     ],
   },
   {
-    id: 20,
+    _id: 20,
     title: "Samsung Galaxy Fold",
     description: "Samsung Galaxy Z Fold4 5G (Beige, 12GB RAM, 512GB Storage)",
     price: 187999,
@@ -407,7 +407,7 @@ export const products = [
     ],
   },
   {
-    id: 21,
+    _id: 21,
     title: "Xiaomi Pad 5",
     description: "Xiaomi Pad 5| Qualcomm Snapdragon 860| 120Hz Refresh Rate| 6GB, 256GB| 2.5K+ Display (10.95-inch/27.81cm)|1 Billion Colours| Dolby Vision Atmos| Quad Speakers| Wi-Fi| Gray",
     price: 39999,
@@ -427,7 +427,7 @@ export const products = [
     ],
   },
   {
-    id: 22,
+    _id: 22,
     title: "Xiaomi Pad 5",
     description: "Xiaomi Pad 5| Qualcomm Snapdragon 860| 120Hz Refresh Rate| 6GB, 256GB| 2.5K+ Display (10.95-inch/27.81cm)|1 Billion Colours| Dolby Vision Atmos| Quad Speakers| Wi-Fi| Gray",
     price: 39999,
@@ -447,7 +447,7 @@ export const products = [
     ],
   },
   {
-    id: 23,
+    _id: 23,
     title: "Xiaomi Pad 5",
     description: "Xiaomi Pad 5| Qualcomm Snapdragon 860| 120Hz Refresh Rate| 6GB, 256GB| 2.5K+ Display (10.95-inch/27.81cm)|1 Billion Colours| Dolby Vision Atmos| Quad Speakers| Wi-Fi| Gray",
     price: 39999,
@@ -467,7 +467,7 @@ export const products = [
     ],
   },
   {
-    id: 24,
+    _id: 24,
     title: "Xiaomi Pad 5",
     description: "Xiaomi Pad 5| Qualcomm Snapdragon 860| 120Hz Refresh Rate| 6GB, 256GB| 2.5K+ Display (10.95-inch/27.81cm)|1 Billion Colours| Dolby Vision Atmos| Quad Speakers| Wi-Fi| Gray",
     price: 39999,
@@ -487,7 +487,7 @@ export const products = [
     ],
   },
   {
-    id: 25,
+    _id: 25,
     title: "Xiaomi Pad 5",
     description: "Xiaomi Pad 5| Qualcomm Snapdragon 860| 120Hz Refresh Rate| 6GB, 256GB| 2.5K+ Display (10.95-inch/27.81cm)|1 Billion Colours| Dolby Vision Atmos| Quad Speakers| Wi-Fi| Gray",
     price: 39999,
@@ -507,7 +507,7 @@ export const products = [
     ],
   },
   {
-    id: 26,
+    _id: 26,
     title: "Xiaomi Pad 5",
     description: "Xiaomi Pad 5| Qualcomm Snapdragon 860| 120Hz Refresh Rate| 6GB, 256GB| 2.5K+ Display (10.95-inch/27.81cm)|1 Billion Colours| Dolby Vision Atmos| Quad Speakers| Wi-Fi| Gray",
     price: 39999,
@@ -527,7 +527,7 @@ export const products = [
     ],
   },
   {
-    id: 27,
+    _id: 27,
     title: "Xiaomi Pad 5",
     description: "Xiaomi Pad 5| Qualcomm Snapdragon 860| 120Hz Refresh Rate| 6GB, 256GB| 2.5K+ Display (10.95-inch/27.81cm)|1 Billion Colours| Dolby Vision Atmos| Quad Speakers| Wi-Fi| Gray",
     price: 39999,
@@ -547,7 +547,7 @@ export const products = [
     ],
   },
   {
-    id: 28,
+    _id: 28,
     title: "Xiaomi Pad 5",
     description: "Xiaomi Pad 5| Qualcomm Snapdragon 860| 120Hz Refresh Rate| 6GB, 256GB| 2.5K+ Display (10.95-inch/27.81cm)|1 Billion Colours| Dolby Vision Atmos| Quad Speakers| Wi-Fi| Gray",
     price: 39999,
@@ -567,7 +567,7 @@ export const products = [
     ],
   },
   {
-    id: 29,
+    _id: 29,
     title: "Xiaomi Pad 5",
     description: "Xiaomi Pad 5| Qualcomm Snapdragon 860| 120Hz Refresh Rate| 6GB, 256GB| 2.5K+ Display (10.95-inch/27.81cm)|1 Billion Colours| Dolby Vision Atmos| Quad Speakers| Wi-Fi| Gray",
     price: 39999,
@@ -587,7 +587,7 @@ export const products = [
     ],
   },
   {
-    id: 30,
+    _id: 30,
     title: "Xiaomi Pad 5",
     description: "Xiaomi Pad 5| Qualcomm Snapdragon 860| 120Hz Refresh Rate| 6GB, 256GB| 2.5K+ Display (10.95-inch/27.81cm)|1 Billion Colours| Dolby Vision Atmos| Quad Speakers| Wi-Fi| Gray",
     price: 39999,
@@ -607,7 +607,7 @@ export const products = [
     ],
   },
   {
-    id: 31,
+    _id: 31,
     title: "Moto Razr 2022",
     description: "Motorola Moto Razr 2022 512 GB (Polished Graphite, 12 GB RAM)",
     price: 139999,
@@ -627,7 +627,7 @@ export const products = [
     ],
   },
   {
-    id: 32,
+    _id: 32,
     title: "Moto Razr 2022",
     description: "Motorola Moto Razr 2022 512 GB (Polished Graphite, 12 GB RAM)",
     price: 139999,
@@ -647,7 +647,7 @@ export const products = [
     ],
   },
   {
-    id: 33,
+    _id: 33,
     title: "Moto Razr 2022",
     description: "Motorola Moto Razr 2022 512 GB (Polished Graphite, 12 GB RAM)",
     price: 139999,
@@ -667,7 +667,7 @@ export const products = [
     ],
   },
   {
-    id: 34,
+    _id: 34,
     title: "Moto Razr 2022",
     description: "Motorola Moto Razr 2022 512 GB (Polished Graphite, 12 GB RAM)",
     price: 139999,
@@ -687,7 +687,7 @@ export const products = [
     ],
   },
   {
-    id: 35,
+    _id: 35,
     title: "Moto Razr 2022",
     description: "Motorola Moto Razr 2022 512 GB (Polished Graphite, 12 GB RAM)",
     price: 139999,
@@ -707,7 +707,7 @@ export const products = [
     ],
   },
   {
-    id: 36,
+    _id: 36,
     title: "Moto Razr 2022",
     description: "Motorola Moto Razr 2022 512 GB (Polished Graphite, 12 GB RAM)",
     price: 139999,
@@ -727,7 +727,7 @@ export const products = [
     ],
   },
   {
-    id: 37,
+    _id: 37,
     title: "Moto Razr 2022",
     description: "Motorola Moto Razr 2022 512 GB (Polished Graphite, 12 GB RAM)",
     price: 139999,
@@ -747,7 +747,7 @@ export const products = [
     ],
   },
   {
-    id: 38,
+    _id: 38,
     title: "Moto Razr 2022",
     description: "Motorola Moto Razr 2022 512 GB (Polished Graphite, 12 GB RAM)",
     price: 139999,
@@ -767,7 +767,7 @@ export const products = [
     ],
   },
   {
-    id: 39,
+    _id: 39,
     title: "Moto Razr 2022",
     description: "Motorola Moto Razr 2022 512 GB (Polished Graphite, 12 GB RAM)",
     price: 139999,
@@ -787,7 +787,7 @@ export const products = [
     ],
   },
   {
-    id: 40,
+    _id: 40,
     title: "Moto Razr 2022",
     description: "Motorola Moto Razr 2022 512 GB (Polished Graphite, 12 GB RAM)",
     price: 139999,
@@ -807,7 +807,7 @@ export const products = [
     ],
   },
   {
-    id: 41,
+    _id: 41,
     title: "realme 10 Pro+",
     description: "realme 10 Pro+ 5G Dimensity 1080 5G 108mp ProLight 6GB+128GB",
     price: 24999,
@@ -827,7 +827,7 @@ export const products = [
     ],
   },
   {
-    id: 42,
+    _id: 42,
     title: "realme 10 Pro+",
     description: "realme 10 Pro+ 5G Dimensity 1080 5G 108mp ProLight 6GB+128GB",
     price: 24999,
@@ -847,7 +847,7 @@ export const products = [
     ],
   },
   {
-    id: 43,
+    _id: 43,
     title: "realme 10 Pro+",
     description: "realme 10 Pro+ 5G Dimensity 1080 5G 108mp ProLight 6GB+128GB",
     price: 24999,
@@ -867,7 +867,7 @@ export const products = [
     ],
   },
   {
-    id: 44,
+    _id: 44,
     title: "realme 10 Pro+",
     description: "realme 10 Pro+ 5G Dimensity 1080 5G 108mp ProLight 6GB+128GB",
     price: 24999,
@@ -887,7 +887,7 @@ export const products = [
     ],
   },
   {
-    id: 45,
+    _id: 45,
     title: "realme 10 Pro+",
     description: "realme 10 Pro+ 5G Dimensity 1080 5G 108mp ProLight 6GB+128GB",
     price: 24999,
@@ -907,7 +907,7 @@ export const products = [
     ],
   },
   {
-    id: 46,
+    _id: 46,
     title: "realme 10 Pro+",
     description: "realme 10 Pro+ 5G Dimensity 1080 5G 108mp ProLight 6GB+128GB",
     price: 24999,
@@ -927,7 +927,7 @@ export const products = [
     ],
   },
   {
-    id: 47,
+    _id: 47,
     title: "realme 10 Pro+",
     description: "realme 10 Pro+ 5G Dimensity 1080 5G 108mp ProLight 6GB+128GB",
     price: 24999,
@@ -947,7 +947,7 @@ export const products = [
     ],
   },
   {
-    id: 48,
+    _id: 48,
     title: "realme 10 Pro+",
     description: "realme 10 Pro+ 5G Dimensity 1080 5G 108mp ProLight 6GB+128GB",
     price: 24999,
@@ -967,7 +967,7 @@ export const products = [
     ],
   },
   {
-    id: 49,
+    _id: 49,
     title: "realme 10 Pro+",
     description: "realme 10 Pro+ 5G Dimensity 1080 5G 108mp ProLight 6GB+128GB",
     price: 24999,
@@ -987,7 +987,7 @@ export const products = [
     ],
   },
   {
-    id: 50,
+    _id: 50,
     title: "realme 10 Pro+",
     description: "realme 10 Pro+ 5G Dimensity 1080 5G 108mp ProLight 6GB+128GB",
     price: 24999,
@@ -1007,7 +1007,7 @@ export const products = [
     ],
   },
   {
-    id: 51,
+    _id: 51,
     title: "POCO F5",
     description: "POCO F5 5G (Electric Blue, 256 GB) (12 GB RAM)",
     price: 39999,
@@ -1027,7 +1027,7 @@ export const products = [
     ],
   },
   {
-    id: 52,
+    _id: 52,
     title: "POCO F5",
     description: "POCO F5 5G (Electric Blue, 256 GB) (12 GB RAM)",
     price: 39999,
@@ -1047,7 +1047,7 @@ export const products = [
     ],
   },
   {
-    id: 53,
+    _id: 53,
     title: "POCO F5",
     description: "POCO F5 5G (Electric Blue, 256 GB) (12 GB RAM)",
     price: 39999,
@@ -1067,7 +1067,7 @@ export const products = [
     ],
   },
   {
-    id: 54,
+    _id: 54,
     title: "POCO F5",
     description: "POCO F5 5G (Electric Blue, 256 GB) (12 GB RAM)",
     price: 39999,
@@ -1087,7 +1087,7 @@ export const products = [
     ],
   },
   {
-    id: 55,
+    _id: 55,
     title: "POCO F5",
     description: "POCO F5 5G (Electric Blue, 256 GB) (12 GB RAM)",
     price: 39999,
@@ -1107,7 +1107,7 @@ export const products = [
     ],
   },
   {
-    id: 56,
+    _id: 56,
     title: "POCO F5",
     description: "POCO F5 5G (Electric Blue, 256 GB) (12 GB RAM)",
     price: 39999,
@@ -1127,7 +1127,7 @@ export const products = [
     ],
   },
   {
-    id: 57,
+    _id: 57,
     title: "POCO F5",
     description: "POCO F5 5G (Electric Blue, 256 GB) (12 GB RAM)",
     price: 39999,
@@ -1147,7 +1147,7 @@ export const products = [
     ],
   },
   {
-    id: 58,
+    _id: 58,
     title: "POCO F5",
     description: "POCO F5 5G (Electric Blue, 256 GB) (12 GB RAM)",
     price: 39999,
@@ -1167,7 +1167,7 @@ export const products = [
     ],
   },
   {
-    id: 59,
+    _id: 59,
     title: "POCO F5",
     description: "POCO F5 5G (Electric Blue, 256 GB) (12 GB RAM)",
     price: 39999,
@@ -1187,7 +1187,7 @@ export const products = [
     ],
   },
   {
-    id: 60,
+    _id: 60,
     title: "POCO F5",
     description: "POCO F5 5G (Electric Blue, 256 GB) (12 GB RAM)",
     price: 39999,
@@ -1207,7 +1207,7 @@ export const products = [
     ],
   },
   {
-    id: 61,
+    _id: 61,
     title: "Zenbook Pro 16X",
     description: "Zenbook Pro 16X 4KOLED HDR 120hz 12th Gen Intel® GeForce RTX™ 3060 GPU",
     price: 278990,
@@ -1227,7 +1227,7 @@ export const products = [
     ],
   },
   {
-    id: 62,
+    _id: 62,
     title: "Zenbook Pro 16X",
     description: "Zenbook Pro 16X 4KOLED HDR 120hz 12th Gen Intel® GeForce RTX™ 3060 GPU",
     price: 278990,
@@ -1247,7 +1247,7 @@ export const products = [
     ],
   },
   {
-    id: 63,
+    _id: 63,
     title: "Zenbook Pro 16X",
     description: "Zenbook Pro 16X 4KOLED HDR 120hz 12th Gen Intel® GeForce RTX™ 3060 GPU",
     price: 278990,
@@ -1267,7 +1267,7 @@ export const products = [
     ],
   },
   {
-    id: 64,
+    _id: 64,
     title: "Zenbook Pro 16X",
     description: "Zenbook Pro 16X 4KOLED HDR 120hz 12th Gen Intel® GeForce RTX™ 3060 GPU",
     price: 278990,
@@ -1287,7 +1287,7 @@ export const products = [
     ],
   },
   {
-    id: 65,
+    _id: 65,
     title: "Zenbook Pro 16X",
     description: "Zenbook Pro 16X 4KOLED HDR 120hz 12th Gen Intel® GeForce RTX™ 3060 GPU",
     price: 278990,
@@ -1307,7 +1307,7 @@ export const products = [
     ],
   },
   {
-    id: 66,
+    _id: 66,
     title: "Zenbook Pro 16X",
     description: "Zenbook Pro 16X 4KOLED HDR 120hz 12th Gen Intel® GeForce RTX™ 3060 GPU",
     price: 278990,
@@ -1327,7 +1327,7 @@ export const products = [
     ],
   },
   {
-    id: 67,
+    _id: 67,
     title: "Zenbook Pro 16X",
     description: "Zenbook Pro 16X 4KOLED HDR 120hz 12th Gen Intel® GeForce RTX™ 3060 GPU",
     price: 278990,
@@ -1347,7 +1347,7 @@ export const products = [
     ],
   },
   {
-    id: 68,
+    _id: 68,
     title: "Zenbook Pro 16X",
     description: "Zenbook Pro 16X 4KOLED HDR 120hz 12th Gen Intel® GeForce RTX™ 3060 GPU",
     price: 278990,
@@ -1367,7 +1367,7 @@ export const products = [
     ],
   },
   {
-    id: 69,
+    _id: 69,
     title: "Zenbook Pro 16X",
     description: "Zenbook Pro 16X 4KOLED HDR 120hz 12th Gen Intel® GeForce RTX™ 3060 GPU",
     price: 278990,
@@ -1387,7 +1387,7 @@ export const products = [
     ],
   },
   {
-    id: 70,
+    _id: 70,
     title: "Zenbook Pro 16X",
     description: "Zenbook Pro 16X 4KOLED HDR 120hz 12th Gen Intel® GeForce RTX™ 3060 GPU",
     price: 278990,
