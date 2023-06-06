@@ -5,11 +5,14 @@
     width: 100%;
   }
   .productlist-filter {
-    /* padding-right: 10px; */
-    margin-top: 10px;
     border: 1px solid;
     border-radius: 5px;
-    flex-basis: 20%;
+    flex-basis: 15%;
+    height: 85vh;
+    margin-left: 20px;
+    margin-top: 20px;
+    overflow: scroll;
+    padding-right: 10px;
   }
   .productlist-container {
     flex-basis: 79%;
@@ -21,10 +24,11 @@
     text-transform: uppercase;
   }
   .productlist-products {
-    /* border: 1px solid green; */
     display: flex;
     flex-wrap: wrap;
+    height: 73vh;
     justify-content: space-evenly;
+    overflow: scroll;
   }
   .card-trending-tag {
     position: absolute;
