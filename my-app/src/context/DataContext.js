@@ -5,6 +5,7 @@ import { AuthContext } from "../AuthContext";
 import { getCartItems } from "../utils/getCartItems";
 import { getWishlistItems } from "../utils/getWishlistItems";
 import { userAddress } from "../utils/userAddress";
+import { removeFromCartHandler } from "../utils/removeFromCartHandler";
 
 export const DataContext = createContext();
 
@@ -103,6 +104,6 @@ export const DataContextProvider = ({ children }) => {
     authState?.isLoggedin && setItems();
   }, [authState?.isLoggedin]);
 
-  const value = { dataState, dispatchData, clearItems, setItems };
+  const value = { removeFromCartHandler , dataState, dispatchData, clearItems, setItems };
   return <DataContext.Provider value={value}>{children}</DataContext.Provider>;
 };

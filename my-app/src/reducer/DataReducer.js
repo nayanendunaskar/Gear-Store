@@ -51,6 +51,12 @@ export const dataReducer = (dataState, action) => {
           ...dataState,
           orderHistory: [...dataState?.orderHistory, action.payload],
         };
+
+        case "DELETE_CART":
+        return {
+          ...dataState,
+          cart: action.payload,
+        };
       default:
         console.log("something went wrong");
     }

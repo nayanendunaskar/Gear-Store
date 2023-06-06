@@ -3,7 +3,7 @@ import axios from "axios";
 export const removeFromWishlistHandler = async (dispatchData, itemId) => {
   try {
     const encodedToken = localStorage.getItem("userToken");
-    const response = await axios.delete(`/api/user/wishlist/${itemId}`, {
+    const response = await axios.delete(`/api/user/wishlist/${Number(itemId)}`, {
       headers: { authorization: encodedToken },
     });
     if (response?.status === 200) {

@@ -19,6 +19,7 @@ export const CartItemsRender = () => {
       {dataState?.cart &&
         dataState?.cart?.map((cartItem) => {
           const {
+            _id,
             id,
             title,
             thumbnail,
@@ -87,7 +88,7 @@ export const CartItemsRender = () => {
                   <div
                     onClick={() => {
                       successToastMsg("Product Removed from Cart ");
-                      removeFromCartHandler(dispatchData, id);
+                      removeFromCartHandler(dispatchData, _id);
                     }}
                     className="cart-item-remove-btn"
                   >
@@ -99,7 +100,7 @@ export const CartItemsRender = () => {
                       if (isItemPresentInWishlist(dataState,id)) {
                         navigate("/wishlist");
                       } else {
-                        addToWishlistHandler(dispatchData, cartItem);
+                        isItemPresentInWishlist(dispatchData, cartItem);
                         successToastMsg("Product Added to Wishlist ");
                       }
                     }}
