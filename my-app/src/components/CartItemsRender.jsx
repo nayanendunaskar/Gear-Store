@@ -48,14 +48,14 @@ export const CartItemsRender = () => {
                   <span className="original-price">{price}</span>
                 </div>
                 <div className="cart-item-size">
-                  Size: <b>{size}</b>
+                  
                 </div>
                 <div className="cart-item-size">
                   Brand: <b>{brand}</b>
                 </div>
                 <span
                   onClick={() =>
-                    handleQuantityChangeCart(dispatchData, id, "increment")
+                    handleQuantityChangeCart(dispatchData,id, "increment")
                   }
                 >
                   <i className="fas fa-plus quantity-btn"></i>
@@ -96,7 +96,7 @@ export const CartItemsRender = () => {
                   <div
                     className="cart-item-remove-btn"
                     onClick={() => {
-                      if (isItemPresentInWishlist(dataState, id)) {
+                      if (isItemPresentInWishlist(dataState,id)) {
                         navigate("/wishlist");
                       } else {
                         addToWishlistHandler(dispatchData, cartItem);
@@ -106,7 +106,7 @@ export const CartItemsRender = () => {
                   >
                     <Button
                       title={
-                        isItemPresentInWishlist(dataState, id)
+                        isItemPresentInWishlist(dataState,id)
                           ? "Go to Wishlist"
                           : "Add to Wishlist"
                       }

@@ -93,7 +93,7 @@ export const SingleProduct = () => {
               )}
             </div>
             <div className="single-product-availability">
-              <b>Size</b> - {singleProduct?.size}
+              <b></b> {singleProduct?.size}
             </div>
             <div>
               <i class="fas fa-tag single-product-tag"></i>

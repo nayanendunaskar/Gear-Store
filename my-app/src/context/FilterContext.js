@@ -8,7 +8,6 @@ export const FilterContextProvider = ({ children }) => {
     searchFilter: "",
     categoryFilter: [],
     typeFilter: [],
-    sizeFilter: [],
     brandFilter: [],
     ratingFilter: "",
     sortPriceFilter: "",
