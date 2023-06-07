@@ -9,7 +9,7 @@ export const FeatureProducts = () => {
   const navigate = useNavigate();
   return (
     <>
-      <h1 className="featurebrands-header">Featured Products </h1>
+      <h1 className="featurebrands-header">Featured Brands </h1>
       <div className="feature-brands-section">
         {brandImgArr.map(({ id, brand, url }) => {
           return (
